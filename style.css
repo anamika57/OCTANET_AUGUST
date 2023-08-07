@@ -1,0 +1,160 @@
+.container{
+    
+
+
+    font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: large;
+}
+h2{
+    margin: auto;
+    padding: auto 40px;
+background-color: black;
+    color:white;
+font-size: 50px;
+align-items: center;
+width: 100%;
+
+    
+
+}
+
+h3{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    width: 800px;
+    text-align: center;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(38, 40, 40, 0.65),rgba(48, 48, 45, 0.65)), url(https://media.istockphoto.com/id/1249219777/photo/shopping-online-concept-parcel-or-paper-cartons-with-a-shopping-cart-logo-in-a-trolley-on-a.webp?b=1&s=170667a&w=0&k=20&c=Q73ir-wB0u0cUX1Ho6OABXrQEBoD9b8FFV4Bn_DsEB8=);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+    .row{
+        width: 100%;
+        padding: 0px 80px;
+        
+    }
+
+    .navbar{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0px;
+        position: relative;
+        z-index: 1;
+        cursor: pointer;
+    }
+
+    .navbar ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+        
+
+    }
+    .navbar ul li{
+        list-style: none;
+    }
+    .navbar ul li a{
+padding: 10px 18px;
+border-radius: 4px;
+font-family: sans-serif;
+font-size: 16px;
+
+        color:white;
+        text-decoration: none;
+
+
+    }
+    .navbar ul li a:hover{
+        background-color:rgb(20, 19, 17) ;
+        transition: 0.5s  ease;
+
+    }
+    .navbar ul li :visited{
+color: rgb(248, 236, 8);
+    }
+    .content{
+align-items: center;
+
+
+    }
+   .content p{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 20px;
+font-weight: bold;
+align-items: center;
+justify-content: center;
+    }
+    button{
+        font-size: medium;
+        font-weight: bold;
+        color: black;
+        background-color: rgb(233, 148, 20);
+    }
+    button a:hover{
+             text-decoration: none;
+             color: bisque;
+            background-color: rgb(40, 57, 62) ;
+    }
+    .content img{
+        border: 3px groove rgb(16, 15, 15);
+        justify-content: center;
+    }
+    #advertise{
+        float: right;
+        width: 17%;
+        padding: 70px;
+        margin-right: 384px;
+
+    }
+    
+    .toggle-btn{
+        position: absolute;
+        top: 34px;
+        right: 126px;
+        display:flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 22px;
+        width: 32px;
+    }
+    .toggle-btn .bar{
+        height: 4px;
+        width: 100%;
+        background-color: #fff;
+        border-radius: 10px;
+
+    }
+    h4{
+        text-decoration: none;
+    }
+    h4{color: black;
+        font-weight: bold;
+        
+      
+
+    }
+    h4 a:hover{
+    
+        background-color: beige;
+    }
+    h4 a:visited{
+        color: rgb(20, 28, 181);
+    }
